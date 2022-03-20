@@ -8,19 +8,28 @@ $(document).ready(function(){
         let Delivery=$("#Delivery").find(":selected").text();
         let Amount=$("input#Amount").val()
         let location=$("input#location").val()
+
+        const order1 = new Order(name,size,Toppings,Crust,Delivery,Amount,location)
+            console.log(order1)
+            order1.calculatePrice()
     })
-    function Order(myName,size,toppings,crust,delivery,amount,location){
-        this.myName = myName
+    function Order(name,size,Toppings,Crust,Delivery,Amount,location){
+        this.name = name
         this.size = size
-        this.toppings = toppings
-        this.crust= crust
-        this.delivery= delivery
-        this.amount = amount
+        this.Toppings = Toppings
+        this.Crust= Crust
+        this.Delivery= Delivery
+        this.Amount = Amount
         this.location= location
     }
 
     Order.prototype.calculatePrice=function(){
-        
+        let sizePrice:
+     if (this.size==="Large(500) "){
+        sizePrice=500
+    }else if(this.size==="medium(450) "){
+        sizePrice=450
+    }else (this.size==="small(300) ")
     }
 })
 
