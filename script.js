@@ -24,12 +24,30 @@ $(document).ready(function(){
     }
 
     Order.prototype.calculatePrice=function(){
-        let sizePrice:
-     if (this.size==="Large(500) "){
-        sizePrice=500
-    }else if(this.size==="medium(450) "){
-        sizePrice=450
-    }else (this.size==="small(300) ")
+        let size;
+        let Toppings;
+        let Crust;
+     if(this.size==="Large(500)"){
+        size=500
+    }else if(this.size==="medium(450)"){
+        size=450
+    }else (this.size==="small(300)")
     }
+    if(this.Toppings==="roasted Red peppers(13)"){
+        Topping=13
+    }else if(this.Toppings==="Roasted Brocolli(14)"){
+        Toppings=14
+    }else if(this.Toppings==="Roasted Artichokes(15)"){
+        Toppings=15
+    }else if(this.Toppings==="Roasted Cauliflower(16)"){
+        Toppings=16
+    }else (this.Toppings==="Roasted Butternut Squash(17)")  
+    if(this.Crust==="crispy(2)"){
+        Crust=2
+    }else if(this.Crust==="Stuffed(3)"){
+        Crust=3
+    }else(this.Crust==="Glutten free(4)")
+    let totalOrder1 = size + Toppings + Crust
+    console.log(totalOrder1);
 })
 
