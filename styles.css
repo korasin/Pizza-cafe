@@ -1,5 +1,9 @@
 .piz{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa0OQbYcyhc0u2IJzTCSwB7Z4qFKUXENJKyw&usqp=CAU);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 h1{
     color: white;
@@ -9,5 +13,8 @@ p{
 }
 .row{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa0OQbYcyhc0u2IJzTCSwB7Z4qFKUXENJKyw&usqp=CAU);
-    background-repeat: round;
+    background-repeat:no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
