@@ -47,8 +47,14 @@ $(document).ready(function(){
     }else if(this.Crust==="Stuffed(3)"){
         Crust=3
     }else(this.Crust==="Glutten free(4)")
-    let totalOrder1 = size + Toppings + Crust
-    console.log(totalOrder1);
-  
+
+    if(this.Delivery==="deliver")
+    var result=Delivery(deliver, deliver-not);
+    alert("Your package is being:+"+result);
+    document.getElementById("form").reset();
+
+    let totalOrder1 ; size + Toppings + Crust
+    console.log("totalOrder1"+result+'');
 })
+
 
