@@ -49,6 +49,6 @@ $(document).ready(function(){
     }else(this.Crust==="Glutten free(4)")
     let totalOrder1 = size + Toppings + Crust
     console.log(totalOrder1);
-
+  
 })
 
