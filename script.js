@@ -53,8 +53,14 @@ $(document).ready(function(){
     alert("Your package is being:+"+result);
     document.getElementById("form").reset();
 
-    let totalOrder1 ; size + Toppings + Crust
+    $(".click1").click(function(){        
+        $(".hide1").show();        
+        $(".show1").toggle();        
+    });
+
+    let totalOrder1 ; parseInt(size) + parseInt(Toppings) + parseInt(Crust)
     console.log("totalOrder1"+result+'');
+    
 })
 
 
